@@ -5,4 +5,5 @@ def myview(request):
     name='varun'
     id=585
     place='b_lore'
-    return render(request,'Photographyapp/1.html',{'Name':name,'Id':id,'Place':place})
+    age=23
+    return render(request,'Photographyapp/1.html',{'Name':name,'Id':id,'Place':place,'Age':23})
